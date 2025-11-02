@@ -108,4 +108,15 @@ Jyotirmaya - Circuit Safari Challenge Submission
 
 ---
 
+## Important Note
+
+This solver requires OpenCV and cannot run in online Python 
+compilers (like Programiz, Replit, etc.) because they don't 
+support image processing libraries.
+
+To test locally:
+```bash
+pip install opencv-python numpy
+python maze_solver.py your_maze.png
+```
 Feel free to test it out with your own maze images. The code should handle most standard maze formats.
